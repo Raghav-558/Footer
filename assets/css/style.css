@@ -52,7 +52,7 @@
     justify-content: space-between;
 }
 
-h1 {
+.main-heading {
     font-family: "DM Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -64,7 +64,7 @@ h1 {
     text-align: left;
 }
 
-p {
+.para {
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     line-height: 26px;
@@ -72,7 +72,7 @@ p {
     color: rgba(21, 20, 57, 0.4);
 }
 
-h2 {
+.headings {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     line-height: 28px;
@@ -88,9 +88,11 @@ li {
     text-align: left;
     color: rgba(30, 14, 98, 1);
 }
-::placeholder{
+
+::placeholder {
     padding-left: 5px;
 }
+
 .input {
     padding: 10px;
     border-radius: 100px;
@@ -130,6 +132,10 @@ button {
     height: 17px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .box {
     width: 370px;
 }
@@ -142,25 +148,29 @@ button {
     padding-top: 20px;
     border-top: 2px solid gray;
 }
+
 @media (min-width:992px) {
-    .col-lg-3{
+    .col-lg-3 {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .col-lg-7{
-        width: 56.33%;
+
+    .col-lg-7 {
+        width: 58.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
 }
+
 @media (min-width:576px) {
-    .col-sm-6{
+    .col-sm-6 {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }
 }
+
 @media (min-width:768px) {
     .col-md-3 {
         width: 25%;
